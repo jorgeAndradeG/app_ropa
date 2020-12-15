@@ -12,7 +12,7 @@ class Ropa {
   final File imagen;
 
   Ropa({
-    @required this.id,
+    this.id, //no es necesaria porque es autoincrementable
     @required this.talla,
     @required this.marca,
     @required this.color,
