@@ -49,6 +49,13 @@ class DetalleRopaScreen extends StatelessWidget {
               textAlign: TextAlign.left,
               style: TextStyle(fontSize: 20, color: Colors.grey),
             ),
+            SizedBox(height: 15),
+            Text(ropaSel.color.toString(),
+                textAlign: TextAlign.left,
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.grey,
+                )),
           ],
         ));
   }
